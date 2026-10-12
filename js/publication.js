@@ -66,7 +66,7 @@ function renderPublicationPapers(items) {
                 </div>
                 <div class="publication-entry__content">
                     <div class="publication-entry__meta">${paper.date || ''}${paper.venue ? ` / ${paper.venue}` : ''}</div>
-                    <h3 class="publication-entry__title"><a href="${paper.url}" target="_blank" rel="noopener noreferrer" data-cursor="OPEN">${paper.title}</a></h3>
+                    <h3 class="publication-entry__title">${paper.url ? `<a href="${paper.url}" target="_blank" rel="noopener noreferrer" data-cursor="OPEN">${paper.title}</a>` : paper.title}</h3>
                     <p class="publication-entry__authors">${paper.authors}</p>
                 </div>
                 <div class="publication-entry__tags">${tags}</div>

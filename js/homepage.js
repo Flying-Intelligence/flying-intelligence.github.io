@@ -484,7 +484,7 @@
                 <dl class="research-detail__facts">
                     <div><dt>Year</dt><dd>${yearMatch ? yearMatch[0] : ''}</dd></div>
                     <div><dt>Published</dt><dd>${paper.date || ''}</dd></div>
-                    <div><dt>Venue</dt><dd>${paper.venue || ''}</dd></div>
+                    <div><dt>Venue</dt><dd>${paper.venue || '—'}</dd></div>
                 </dl>
                 <section class="research-detail__section" aria-labelledby="research-detail-directions-${index + 1}">
                     <h4 id="research-detail-directions-${index + 1}">Research directions</h4>

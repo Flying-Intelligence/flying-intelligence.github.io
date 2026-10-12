@@ -68,4 +68,39 @@ const papers = [
         coverPosition: "50% 50%",
         mediaFitMode: "contain"
     },
+    {
+        title: "AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots",
+        url: "https://arxiv.org/abs/2606.12859",
+        venue: "arXiv",
+        img: "files/images/AIR-VLA-Plus.png",
+        date: "Jun. 2026",
+        authors: '<a href="group.html#jianli-sun">Jianli Sun</a>, Bin Tian, <a href="group.html#qiyao-zhang">Qiyao Zhang</a>, Zijian Liu, Yutong Wang, Zhiyong Cui, Bai Li, Yisheng Lv, <a href="group.html#yonglin-tian">Yonglin Tian*</a>',
+        tags: ["Low-altitude Operation"],
+        coverPosition: "50% 50%",
+        mediaFitMode: "contain"
+    },
+    {
+        title: "Make π0.5 Learn to Call Astra for Reliable Robot Manipulation",
+        url: "",
+        venue: "",
+        img: "files/images/CALL-pi05-Astra.png",
+        date: "2026",
+        authors: '<a href="group.html#jianli-sun">Jianli Sun*</a>, <a href="group.html#chengxiang-li">Chengxiang Li*</a>, <a href="group.html#yonglin-tian">Yonglin Tian</a>',
+        tags: ["Low-altitude Operation"],
+        coverPosition: "50% 50%",
+        mediaFitMode: "contain"
+    },
+    {
+        title: "UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents",
+        url: "https://arxiv.org/abs/2609.18326",
+        projectUrl: "https://hub-tian.github.io/UAVs_Meet_Embodied-Intelligence/",
+        githubUrl: "https://github.com/Hub-Tian/UAVs_Meet_Embodied-Intelligence",
+        venue: "arXiv",
+        img: "files/images/UAV-EI.png",
+        date: "Sep. 2026",
+        authors: '<a href="group.html#yonglin-tian">Yonglin Tian</a>, Weiyi Wang, <a href="group.html#houhua-lu">Houhua Lu</a>, <a href="group.html#xinyi-li">Xinyi Li</a>, <a href="group.html#yihao-wu">Yihao Wu</a>, Jingyang Chen, <a href="group.html#jianli-sun">Jianli Sun</a>, <a href="group.html#chengxiang-li">Chengxiang Li</a>, <a href="group.html#yinuo-chen">Yinuo Chen</a>, Fei Lin, Tengchao Zhang, Jing Yang, Deyi Ji, Jian Di, Naiqi Wu, Yisheng Lv*',
+        tags: ["Low-altitude Perception", "Low-altitude Coordination", "Low-altitude Maneuvering", "Low-altitude Operation"],
+        coverPosition: "50% 50%",
+        mediaFitMode: "contain"
+    },
 ];

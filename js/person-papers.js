@@ -53,10 +53,10 @@ function renderPersonPapers(targetId, container) {
                     </div>` : ''}
                     <div class="card-body d-flex flex-column" style="padding: 1.25rem;">
                         <h6 class="card-title" style="font-weight: 700; line-height: 1.4; margin-bottom: 0.75rem;">
-                            <a href="${paper.url}" target="_blank" style="color: #2563eb; text-decoration: none;">${paper.title}</a>
+                            ${paper.url ? `<a href="${paper.url}" target="_blank" style="color: #2563eb; text-decoration: none;">${paper.title}</a>` : `<span style="color: #1f2937;">${paper.title}</span>`}
                         </h6>
                         <div class="mb-2">
-                            <span class="badge badge-light" style="color: #666; font-weight: 500;">${paper.venue || ''}</span>
+                            ${paper.venue ? `<span class="badge badge-light" style="color: #666; font-weight: 500;">${paper.venue}</span>` : ''}
                             <span class="text-muted small ml-2">${paper.date || ''}</span>
                         </div>
                         <p class="card-text small text-muted mb-0" style="font-size: 0.85em; line-height: 1.5;">
